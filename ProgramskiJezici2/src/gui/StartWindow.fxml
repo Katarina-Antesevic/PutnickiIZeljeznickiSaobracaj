@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="796.0" prefWidth="1188.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.StartWindowController">
+   <children>
+      <GridPane fx:id="grid" gridLinesVisible="true" layoutX="230.0" layoutY="111.0" prefHeight="781.0" prefWidth="920.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="230.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="10.0">
+        
+      </GridPane>
+      <Button fx:id="start" layoutX="30.0" layoutY="357.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="174.0" style="-fx-background-color: #6cabee;" text="START" textAlignment="CENTER" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="357.0">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="detalji" layoutX="30.0" layoutY="441.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="174.0" style="-fx-background-color: #ffbf00;" text="DETALjI KRETANJA" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="441.0">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="60.0" layoutY="32.0" text="AUTOMOBIL">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="71.0" text="KAMION">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="112.0" text="LOKOMOTIVA">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="153.0" text="VAGON">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="SIENNA" height="30.0" layoutX="30.0" layoutY="108.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIMEGREEN" height="30.0" layoutX="30.0" layoutY="67.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGERED" height="30.0" layoutX="30.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTPINK" height="30.0" layoutX="30.0" layoutY="149.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DARKBLUE" height="30.0" layoutX="30.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Label layoutX="60.0" layoutY="179.0" prefHeight="57.0" prefWidth="136.0" text="ELEKTRICNA LOKOMOTIVA" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

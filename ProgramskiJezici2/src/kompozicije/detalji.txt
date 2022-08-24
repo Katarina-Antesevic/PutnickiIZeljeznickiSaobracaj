@@ -1,0 +1,28 @@
+(L-broj)-(V-broj)#BRZINA#POLAZNA(brojStanica*)-KRAJNJA#VRSTA_POGONA
+
+L-lokomotiva
+V-vagon
+
+
+broj:
+
+lokomotive:
+1 - manevarskaLokomotiva
+2 - teretnaLokomotiva
+3 - putnickaLokomotiva
+4 - univerzalnaLokomotiva
+
+vagoni:
+1 - posebneNamjeneVagon
+2 - teretniVagon
+3 - putnickiVagon
+
+
+broj_stanica*: vazi za stanice A i E
+0 - krece van mape prema pocetnoj stanici
+
+
+vrsta pogona:
+E - elektricni pogon
+P - parni pogon
+D - dizel pogon
